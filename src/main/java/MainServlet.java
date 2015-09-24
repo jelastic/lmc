@@ -8,8 +8,9 @@ import java.io.InputStreamReader;
 import java.io.PrintWriter;
 import java.util.concurrent.TimeUnit;
 
-/**
+/** 
  * @author Maksym Shevchuk
+ * 
  */
 public class MainServlet extends HttpServlet {
     @Override
