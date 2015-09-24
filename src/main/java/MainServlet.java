@@ -10,7 +10,6 @@ import java.util.concurrent.TimeUnit;
 
 /** 
  * @author Maksym Shevchuk
- * 
  */
 public class MainServlet extends HttpServlet {
     @Override
