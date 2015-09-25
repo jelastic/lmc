@@ -25,9 +25,9 @@ public class MainServlet extends HttpServlet {
             out.print("<h1>Live Migration Checker for CI (Jelastic)</h1>");
             out.print("<br/><br/><br/>");
             out.print("<span><b><font color = \"blue\" size = 14>Uptime: " + getSystemUptime() + "</font></b></span>");
-            out.print("<div/>");
-            out.print("<body/>");
-            out.print("<html/>");
+            out.print("</div>");
+            out.print("</body>");
+            out.print("</html>");
 
         } catch (Exception e) {
             out.print("<h1>Error occurred during getSystemUptime()</h1>");
